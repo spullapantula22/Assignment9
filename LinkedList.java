@@ -51,11 +51,11 @@ public class LinkedList implements Stack1 {
 		}
 		
 		else {
-			
+			Object item = head.data;
 			head = head.next;
 			size--;
 			
-			return head.val;
+			return item;
 		}
 	}
 
